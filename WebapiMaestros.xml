@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebapiMaestros</name>
+    </assembly>
+    <members>
+        <member name="T:WebapiMaestros.Controllers.MaestrosController">
+            <summary>
+            Controlador que maneja lo relativo al ejército StarWars.
+            </summary>
+        </member>
+        <member name="M:WebapiMaestros.Controllers.MaestrosController.GetArmies">
+            <summary>
+            Consulta todas las naves y sus armas de todos los ejercitos de la BBDD
+            </summary>
+        </member>
+        <member name="M:WebapiMaestros.Controllers.MaestrosController.GetShips">
+            <summary>
+            Obtienen todas las naves 
+            </summary>
+            <param name="shipName">Nombre de la nave</param>
+        </member>
+        <member name="M:WebapiMaestros.Controllers.MaestrosController.GetShipsByName(System.String)">
+            <summary>
+            Obtienen todas las naves que contien en el nombre el texto enviado
+            </summary>
+            <param name="shipName">Nombre de la nave</param>
+        </member>
+        <member name="M:WebapiMaestros.Controllers.MaestrosController.GetShipsById(System.Int32)">
+            <summary>
+            Obtiene la nave del idShip enviado
+            </summary>
+            <param name="idShip">Nombre de la nave</param>
+        </member>
+    </members>
+</doc>
